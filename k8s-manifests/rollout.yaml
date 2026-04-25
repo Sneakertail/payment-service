@@ -23,8 +23,8 @@ spec:
     spec:
       containers:
         - name: payment-service
-          image: sneakertail/payment-service:latest
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/sneakertail/payment-service:dev
+          imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 3005
